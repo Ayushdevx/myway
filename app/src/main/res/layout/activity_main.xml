@@ -12,24 +12,13 @@
         android:layout_height="match_parent"
         android:id="@+id/web_view"
         android:layout_marginBottom="?attr/actionBarSize"/>
-
-    <Button
-        android:layout_width="wrap_content"
-        android:layout_height="?attr/actionBarSize"
-        android:layout_marginLeft="5dp"
-        android:text="My Way AI"
-        android:layout_alignParentBottom="true"
-        android:backgroundTint="@color/black"
-        android:id="@+id/wayai"/>
-    <Button
-        android:layout_width="wrap_content"
-        android:layout_height="?attr/actionBarSize"
-        android:layout_marginLeft="5dp"
-        android:text="My Way AI"
-        android:layout_alignParentBottom="true"
-        android:layout_alignParentRight="true"
-        android:backgroundTint="@color/black"
-        android:id="@+id/waya"/>
-
-
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="?attr/actionBarSize"
+            android:layout_marginLeft="5dp"
+            android:text="My Way AI"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:backgroundTint="#c6a143"
+            android:id="@+id/wayai"/>
 </RelativeLayout>
